@@ -18,4 +18,4 @@ function speedDetector(speed){
     }
     
     // Call the function to start the grading process
-    speedDetector(5);
+    speedDetector(80);
