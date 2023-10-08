@@ -27,5 +27,5 @@ if (marks < 0 || marks > 100) {
     }
 }
 
-// Call the function to start the grading process
+// Call the function to start the grading process and pass a test score as value for the marks parameter
 gradeGenerator(50);
