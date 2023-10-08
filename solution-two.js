@@ -22,5 +22,5 @@ function speedDetector(speed){
           }
     }
     
-    // Call the function to start the grading process
+    // Call the function to run the speedDector calculations and pass a test value as parameter
     speedDetector(80);
