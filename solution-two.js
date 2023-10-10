@@ -1,5 +1,7 @@
 //Create speedDetector Function
-function speedDetector(speed){
+function speedDetector(){
+
+    let speed = prompt('Please enter car speed:');
     
     // Check if the speed is below the speed limit of 70
     if (speed < 70) {
@@ -23,4 +25,4 @@ function speedDetector(speed){
     }
     
     // Call the function to run the speedDector calculations and pass a test value as parameter
-    speedDetector(80);
+    speedDetector();

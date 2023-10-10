@@ -1,5 +1,6 @@
 //Create gradeGenerator Function
-function gradeGenerator(marks){
+function gradeGenerator(){
+    let marks = prompt('Enter student marks:');
 
 // Check if the marks are within the range of 0 - 100 with if else statement block
 if (marks < 0 || marks > 100) {
@@ -28,4 +29,4 @@ if (marks < 0 || marks > 100) {
 }
 
 // Call the function to start the grading process and pass a test score as value for the marks parameter
-gradeGenerator(50);
+gradeGenerator();
